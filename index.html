@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Auto Dealership</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding-top: 56px; /* Adjust based on your navbar height */
+        }
+
+        .jumbotron {
+            background-image: url('car-dealership.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            color: white;
+            text-shadow: 2px 2px 4px #000000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Auto Dealership</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inventory</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container mt-5">
+        <!-- Jumbotron Header -->
+        <header class="jumbotron my-4">
+            <h1 class="display-3">Welcome to Our Auto Dealership!</h1>
+            <p class="lead">Explore our diverse range of high-quality vehicles.</p>
+            <a href="#" class="btn btn-primary btn-lg">Browse Inventory</a>
+        </header>
+
+        <!-- Page Features -->
+        <div class="row text-center">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="sedan.jpg" alt="Sedan Image" width="140" height="140">
+                <h2>Sedans</h2>
+                <p>Discover our collection of sleek and stylish sedans.</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="suv.jpg" alt="SUV Image" width="140" height="140">
+                <h2>SUVs</h2>
+                <p>Explore our range of powerful and spacious SUVs.</p>
+            </div>
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="truck.jpg" alt="Truck Image" width="140" height="140">
+                <h2>Trucks</h2>
+                <p>Find the perfect truck to handle your toughest tasks.</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

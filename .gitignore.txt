@@ -1,0 +1,37 @@
+# Ignore all files in the root except .gitignore
+/*
+!.gitignore
+
+# Ignore all directories
+/*/
+
+# Add specific directories you want to ignore
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+3D Objects/
+AppData/
+Contacts/
+Desktop/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Jedi/
+Links/
+Music/
+Nox_share/
+OneDrive/
+PhotoshopPortable/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+opera autoupdate/
+vmlogs/
